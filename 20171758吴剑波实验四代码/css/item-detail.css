@@ -1,0 +1,255 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 1500px;
+}
+.shop-box{
+	width: 100%;
+	height: 1200px;
+	border-top: 2px solid #E0E0E0;
+}
+.item-detail-show{
+	position: relative;
+	width: 1224px;
+	height: 1200px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.img-con{
+	width: 560px;
+	height: 678px;
+}
+.img-con-1{
+	width: 560px;
+	height: 560px;
+	margin: 0;
+}
+.img-con-2{
+	width: 250px;
+	height: 40px;
+	margin: 0px 150px;
+}
+.img-con-2-1{
+	float: left;
+	padding-left: 28px;
+}
+.item-detail-right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 620px;
+	height: 800px;
+}
+.pro-title{
+	font-size: 25px;
+	font-weight: 500;
+}
+.item-detail-right .sale-desc{
+	color: #B0B0B0;
+	font-size: 15px;
+	margin: 0;
+	padding-top: 8px;
+}
+.item-detail-right .aftersale-company{
+	color: #FF6700;
+	font-size: 15px;
+	padding-top: 0px;
+}
+.pro-price{
+	font-size: 18px;
+	color: #FF6700;
+	line-height: 1;
+	border-bottom: 1px solid #E0E0E0;
+	padding: 0px 0 20px;
+}
+.pro-price .nowprice del{
+	margin-left: 10px;
+	color: #B0B0B0;
+	font-size: 14px;
+}
+.sale-wrap{
+	height: 75px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.sale-wrap .coupon-warp{
+	margin: 5px 0;
+}
+.coupon-tag{
+	display: inline-block;
+	width: 80px;
+	height: 15px;
+	font-size: 14px;
+	margin-bottom: 2px;
+	padding: 7px 0;
+	line-height: 15px;
+	text-align: center;
+	color: white;
+	background-color: #FF6700;
+}
+.coupon-name{
+	width: 430px;
+	height: 26px;
+	font-size: 14px;
+	margin-left: 5px;
+	line-height: 26px;
+}
+
+.sale-wrap .coupon-warp .J_getCouponList{
+	float: right;
+	font-size: 14px;
+	color: #FF6700;
+	padding-top: 5px;
+	padding-right: 30px;
+}
+.step-title{
+	margin: 25px 0;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.step-list{
+	width: 620px;
+	height: 180px;
+}
+.item-select{
+	float: left;
+	width: 296px;
+	height: 35px;
+	font-size: 18px;
+	margin: 6px 5px;
+	line-height: 35px;
+	padding: 5px 0px;
+	text-align: center;
+	border: 1px dotted #E0E0E0;
+}
+.item-select:hover{
+	border: 1px solid #FF6700;
+}
+.item-select .name{
+	font-weight: 100;
+	color: #000000;
+}
+.item-select .price{
+	padding-left: 15px;
+	color: #000000;
+}
+.color-select{
+	width: 620px;
+	height: 50px;
+}
+.phone-color{
+	float: left;
+	width: 194px;
+	height: 50px;
+	margin-right: 10px;
+	border: 1px dotted #E0E0E0;
+}
+.phone-color:hover{
+	border: 1px solid #FF6700;
+}
+.phone-color img{
+	padding-top: 8px;
+	padding-left: 49px;
+}
+.phone-color .color-word{
+	float: right;
+	width: 90px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 10px;
+}
+.item-select-row{
+	height: 48px;
+	margin-top: -10px;
+}
+.item-select-class{
+	float: left;
+	width: 100px;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	padding-right: 20px;
+	border: 1px dotted #E0E0E0;
+}
+.item-select-class:hover{
+	border: 1px solid #FF6700;
+}
+.item-select-class span{
+	padding-left: 15px;
+}
+.paymony{
+	width: 620px;
+	height: 80px;
+	margin-top: 10px;
+	line-height: 50px;
+	text-align: center;
+	border-top: 2px solid #E0E0E0;
+}
+.paymony p{
+	width: 185px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 250px;
+	color: #FF6700;
+	border: 1px solid #FF6700;
+}
+.paymony p:hover,.pro-advice:hover,.pro-collect:hover{
+	color: white;
+	background-color: #FF6700;
+}
+.pro-policy{
+	width: 560px;
+	height: 45px;
+	float: left;
+}
+.pro-advice,.pro-collect{
+	float: left;
+	width: 185px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 100px;
+	color: #FF6700;
+	border: 1px solid #FF6700;
+}
+.pro-collect{
+	margin-left: 20px;
+}
+.ui-viewport{
+	position: relative;
+	width: 674px;
+	height: 374px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pic{
+    width: 1600px;
+    position: absolute;
+    left: 0;
+    list-style: none;
+    animation-name: focusmap;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    }
+@keyframes focusmap{
+    0%,30%{
+    	left: 0;
+    }
+    35%,65%{
+    	left: -400px;
+    }
+    70%,99%{
+    	left: -800px;
+    }
+	100%{
+	left: -1200px;
+	}
+.pic li{
+    float: left;
+    background: #5dd94e;
+}
+.pic li img{
+	width: 400px;
+	height: 200px;
+}
